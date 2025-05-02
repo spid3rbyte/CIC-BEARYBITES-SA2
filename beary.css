@@ -1,0 +1,38 @@
+.poly-regular, li, a, button     {
+    font-family: "Poly", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DABE97;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;  
+    color: #452101;
+}
+  
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
